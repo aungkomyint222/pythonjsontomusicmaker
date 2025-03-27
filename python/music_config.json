@@ -1,0 +1,52 @@
+{
+    "total_duration": 90,
+    "tempo": 95,
+    "sample_rate": 44100,
+    "instruments": [
+        {
+            "type": "piano",
+            "volume": 0.85,
+            "pitch_shift": 0,
+            "pattern": [
+                {"note": "C3", "duration": 1.0},
+                {"note": "E3", "duration": 0.75},
+                {"note": "G3", "duration": 0.5},
+                {"note": "REST", "duration": 0.25},
+                {"note": "D3", "duration": 1.0},
+                {"note": "F3", "duration": 0.75},
+                {"note": "A3", "duration": 0.5},
+                {"note": "REST", "duration": 0.25}
+            ],
+            "repeat": true
+        },
+        {
+            "type": "synth_pad",
+            "volume": 0.6,
+            "pitch_shift": -12,
+            "pattern": [
+                {"note": "F2", "duration": 2.0},
+                {"note": "A#2", "duration": 2.0},
+                {"note": "D2", "duration": 2.0},
+                {"note": "G2", "duration": 2.0}
+            ],
+            "repeat": true
+        },
+        {
+            "type": "drum",
+            "volume": 0.9,
+            "pattern": [
+                {"sound": "kick", "duration": 0.5},
+                {"sound": "hihat", "duration": 0.125},
+                {"sound": "snare", "duration": 0.5},
+                {"sound": "hihat", "duration": 0.125},
+                {"sound": "kick", "duration": 0.5},
+                {"sound": "REST", "duration": 0.125},
+                {"sound": "snare", "duration": 0.5},
+                {"sound": "hihat", "duration": 0.125},
+                {"sound": "kick", "duration": 0.5},
+                {"sound": "hihat", "duration": 0.125}
+            ],
+            "repeat": true
+        }
+    ]
+}
